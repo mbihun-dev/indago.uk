@@ -1,6 +1,6 @@
 @font-face {
     font-family: "San Francisco";
-    font-weight: 400;
+    font-weight: 0;
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
 }
 
@@ -12,7 +12,7 @@ body {
     overflow: hidden;
     position: relative;
     background: #FFFFFF;
-    font-family: 'San Francisco';
+    font-family: -apple-system-headline, BlinkMacSystemFont, SanFranciscoText-Bold, 'San Francisco';
     display: flex;
     align-items: center;
 }
@@ -21,7 +21,7 @@ h1 {
     color: black;
     font-size: 10vmin;
     line-height: 1;
-    font-family: -apple-system-headline, BlinkMacSystemFont, SanFranciscoText-Bold, 'San Francisco', sans-serif;
+    font-family: -apple-system-headline, BlinkMacSystemFont, SanFranciscoText-Bold, 'San Francisco';
     padding-left: 40px;
 }
 
