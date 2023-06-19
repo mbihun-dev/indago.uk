@@ -21,7 +21,7 @@ h1 {
     color: black;
     font-size: 10vmin;
     line-height: 1;
-    font-family: 'San Francisco';
+    font-family: -apple-system-headline, BlinkMacSystemFont, SanFranciscoText-Bold, 'San Francisco', sans-serif;
     padding-left: 40px;
 }
 
